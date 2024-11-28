@@ -1,9 +1,10 @@
 #include <stdio.h>
 
 int main(){
-	int a,b;
-	scanf("%d %d",&a,&b);
-
+	int a;
+	int b;
+	scanf("%d \n",&a);
+	scanf("%d",&b);
 	if(a>b){
 		printf("n1>n2=%d \n", a-b);
 	}else{
